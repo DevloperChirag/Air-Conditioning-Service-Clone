@@ -1,0 +1,255 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Header</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@800&family=Nunito:wght@300;400&family=Orbitron&family=Piazzolla:opsz,wght@8..30,200;8..30,300;8..30,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css">
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    {{! Header }}
+    <header class="w-full bg-[#0057FF] flex justify-center items-center">
+      <div class="flex text-xl text-white px-5 py-2 font-400">
+        <i class="fas fa-map-marker-alt px-4" style="color: #ffffff;"></i>
+        4140 Parker Rd. Allentown, New Mexico 31134
+      </div>
+      <div class="flex text-xl text-white px-8 py-2 font-400">
+        <i class="fa-solid fa-phone px-2"></i>
+        (239) 555-0108 <span class="px-6">(406) 555-0120 </span>
+      </div>
+    </header>
+
+    {{!-- Navigation Bar --}}
+      <nav class="flex">
+            <div class="flex w-full px-8 py-2 text-xl justify-center">
+                  <ul class="flex">
+                        <li class="px-8 py-2 font-bold text-blue-900">
+                              Conditioning <i class="fa-solid fa-wind " style="bg-color:#0057FF"></i>
+                        </li>
+                        <li class="px-8 py-2 text-gray-500 ">
+                          <div class="Demos relative hover:text-blue-600 hover:cursor-pointer flex ">Demos</div>
+                              <div id="Demo" class="absolute border-2 m-5 ">
+                                   <ul>
+                                    <li class="m-4 home hover:text-blue-600 flex items-center">
+                                      <span  class="text-blue-600 text-xl line-hover">&#8594</span>
+                                      <a href="#" >Home1</a>
+                                    </li>
+                                    <li class="m-4 home hover:text-blue-600 flex items-center">
+                                      <span  class="text-blue-600 text-xl line-hover">&#8594</span>
+                                      <a href="#" >Home2</a>
+                                    </li>
+                                    <li class="m-4 home hover:text-blue-600 flex items-center">
+                                      <span  class="text-blue-600 text-xl line-hover">&#8594</span>
+                                      <a href="#" >Home3</a>
+                                    </li>
+                                   </ul>
+                              </div>
+                        </li>
+                        <li class="px-8 py-2 text-gray-500">
+                          <div class="Demos relative hover:text-blue-600 hover:cursor-pointer flex ">About Us</div>
+                          <div id="Demo" class="absolute border-2 m-5 ">
+                                   <ul>
+                                    <li class="m-4 home hover:text-blue-600 flex items-center">
+                                      <span  class="text-blue-600 text-xl line-hover">&#8594</span>
+                                      <a href="#" >About Us</a>
+                                    </li>
+                                    <li class="m-4 home hover:text-blue-600 flex items-center">
+                                      <span  class="text-blue-600 text-xl line-hover">&#8594</span>
+                                      <a href="#" >Our Team</a>
+                                    </li>
+                                    <li class="m-4 home hover:text-blue-600 flex items-center">
+                                      <span  class="text-blue-600 text-xl line-hover">&#8594</span>
+                                      <a href="#" >Testimonials</a>
+                                    </li>
+                                    <li class="m-4 home hover:text-blue-600 flex items-center">
+                                      <span  class="text-blue-600 text-xl line-hover">&#8594</span>
+                                      <a href="#" >FAQ</a>
+                                    </li>
+                                    <li class="m-4 home hover:text-blue-600 flex items-center">
+                                      <span  class="text-blue-600 text-xl line-hover">&#8594</span>
+                                      <a href="#" >Contact Us</a>
+                                    </li>
+                                   </ul>
+                              </div>
+                        </li>
+                        <li class="px-8 py-2 text-gray-500">
+                          <div class="Demos relative hover:text-blue-600 hover:cursor-pointer flex ">Services</div>
+                           <div id="Demo" class="absolute border-2 m-5 ">
+                                   <ul>
+                                    <li class="m-4 home hover:text-blue-600 flex items-center">
+                                      <span  class="text-blue-600 text-xl line-hover">&#8594</span>
+                                      <a href="#" >Services</a>
+                                    </li>
+                                    <li class="m-4 home hover:text-blue-600 flex items-center">
+                                      <span  class="text-blue-600 text-xl line-hover">&#8594</span>
+                                      <a href="#" >Service Details</a>
+                                    </li>
+                                   </ul>
+                              </div>
+                        </li>
+                        <li class="px-8 py-2 text-gray-500">
+                            <div class="Demos relative hover:text-blue-600 hover:cursor-pointer flex ">Pricing</div>
+                           <div id="Demo" class="absolute border-2 m-5 ">
+                                   <ul>
+                                    <li class="m-4 home hover:text-blue-600 flex items-center">
+                                      <span  class="text-blue-600 text-xl line-hover">&#8594</span>
+                                      <a href="#" >Pricing 1</a>
+                                    </li>
+                                    <li class="m-4 home hover:text-blue-600 flex items-center">
+                                      <span  class="text-blue-600 text-xl line-hover">&#8594</span>
+                                      <a href="#" >Pricing 2</a>
+                                    </li>
+                                    <li class="m-4 home hover:text-blue-600 flex items-center">
+                                      <span  class="text-blue-600 text-xl line-hover">&#8594</span>
+                                      <a href="#" >Pricing 3</a>
+                                    </li>
+                                   </ul>
+                              </div>
+                        </li>
+                        <li class="px-8 py-2 text-gray-500">
+                           <div class="Demos relative hover:text-blue-600 hover:cursor-pointer flex ">Projects</div>
+                           <div id="Demo" class="absolute border-2 m-5 ">
+                                   <ul>
+                                    <li class="m-4 home hover:text-blue-600 flex items-center">
+                                      <span  class="text-blue-600 text-xl line-hover">&#8594</span>
+                                      <a href="#" >Projects1</a>
+                                    </li>
+                                    <li class="m-4 home hover:text-blue-600 flex items-center">
+                                      <span  class="text-blue-600 text-xl line-hover">&#8594</span>
+                                      <a href="#" >Projects 2</a>
+                                    </li>
+                                    <li class="m-4 home hover:text-blue-600 flex items-center">
+                                      <span  class="text-blue-600 text-xl line-hover">&#8594</span>
+                                      <a href="#" >Projects 3</a>
+                                    </li>
+                                    <li class="m-4 home hover:text-blue-600 flex items-center">
+                                      <span  class="text-blue-600 text-xl line-hover">&#8594</span>
+                                      <a href="#" >Project Details</a>
+                                    </li>
+                                   </ul>
+                              </div>
+                        </li>
+                        <li class="px-8 py-2 text-gray-500">
+                          <div class="Demos relative hover:text-blue-600 hover:cursor-pointer flex ">All Pages</div>
+                            <div id="Demo" class="max-h-80 overflow-x-auto no-scrollbar flex absolute border-2 m-5 ">
+                                   <ul>
+                                    <li class="m-4 home hover:text-blue-600 flex items-center">
+                                      <span  class="text-blue-600 text-xl line-hover">&#8594</span>
+                                      <a href="#" >Home1</a>
+                                    </li>
+                                    <li class="m-4 home hover:text-blue-600 flex items-center">
+                                      <span  class="text-blue-600 text-xl line-hover">&#8594</span>
+                                      <a href="#" >Home2</a>
+                                    </li>
+                                    <li class="m-4 home hover:text-blue-600 flex items-center">
+                                      <span  class="text-blue-600 text-xl line-hover">&#8594</span>
+                                      <a href="#" >Home3</a>
+                                    </li>
+                                    <li class="m-4 home hover:text-blue-600 flex items-center">
+                                      <span  class="text-blue-600 text-xl line-hover">&#8594</span>
+                                      <a href="#" >About Us</a>
+                                    </li>
+                                    <li class="m-4 home hover:text-blue-600 flex items-center">
+                                      <span  class="text-blue-600 text-xl line-hover">&#8594</span>
+                                      <a href="#" >Our Team</a>
+                                    </li>
+                                    <li class="m-4 home hover:text-blue-600 flex items-center">
+                                      <span  class="text-blue-600 text-xl line-hover">&#8594</span>
+                                      <a href="#" >Testimonials</a>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li class="m-4 home hover:text-blue-600 flex items-center">
+                                      <span  class="text-blue-600 text-xl line-hover">&#8594</span>
+                                      <a href="#" >FAQ</a>
+                                    </li>
+                                    <li class="m-4 home hover:text-blue-600 flex items-center">
+                                      <span  class="text-blue-600 text-xl line-hover">&#8594</span>
+                                      <a href="#" >Contact Us</a>
+                                    </li>
+                                    <li class="m-4 home hover:text-blue-600 flex items-center">
+                                      <span  class="text-blue-600 text-xl line-hover">&#8594</span>
+                                      <a href="#" >Services</a>
+                                    </li>
+                                    <li class="m-4 home hover:text-blue-600 flex items-center">
+                                      <span  class="text-blue-600 text-xl line-hover">&#8594</span>
+                                      <a href="#" >Service Details</a>
+                                    </li>
+                                     <li class="m-4 home hover:text-blue-600 flex items-center">
+                                      <span  class="text-blue-600 text-xl line-hover">&#8594</span>
+                                      <a href="#" >Pricing 1</a>
+                                    </li>
+                                    <li class="m-4 home hover:text-blue-600 flex items-center">
+                                      <span  class="text-blue-600 text-xl line-hover">&#8594</span>
+                                      <a href="#" >Pricing 2</a>
+                                    </li>
+                                  </ul>
+                                  <ul>
+                                    <li class="m-4 home hover:text-blue-600 flex items-center">
+                                      <span  class="text-blue-600 text-xl line-hover">&#8594</span>
+                                      <a href="#" >Pricing 3</a>
+                                    </li>
+                                    <li class="m-4 home hover:text-blue-600 flex items-center">
+                                      <span  class="text-blue-600 text-xl line-hover">&#8594</span>
+                                      <a href="#" >Projects1</a>
+                                    </li>
+                                    <li class="m-4 home hover:text-blue-600 flex items-center">
+                                      <span  class="text-blue-600 text-xl line-hover">&#8594</span>
+                                      <a href="#" >Projects 2</a>
+                                    </li>
+                                    <li class="m-4 home hover:text-blue-600 flex items-center">
+                                      <span  class="text-blue-600 text-xl line-hover">&#8594</span>
+                                      <a href="#" >Projects 3</a>
+                                    </li>
+                                    <li class="m-4 home hover:text-blue-600 flex items-center">
+                                      <span  class="text-blue-600 text-xl line-hover">&#8594</span>
+                                      <a href="#" >Project Details</a>
+                                    </li>
+                                    <li class="m-4 home hover:text-blue-600 flex items-center">
+                                      <span  class="text-blue-600 text-xl line-hover">&#8594</span>
+                                      <a href="#" >Shop</a>
+                                    </li>
+                                   </ul>
+                              </div>
+                        </li>
+                        <li class="px-8 py-2"><i class="fas fa-shopping-cart"></i></li>
+                        <li class="px-8 py-2"><button class="px-6 py-2 border-blue-500 border-2 rounded-3xl hover:bg-blue-700 hover:text-white transition ease-in-out delay-2000">Get In Touch</button></li>
+                  </ul>
+            </div>
+      </nav>
+      {{!-- content  --}}
+      <div class="h-[90vh] w-4/5 border-8 mx-auto flex justify-center items-center">
+
+        <div class=" w-1/2 h-full px-8 py-16" >
+          <p class="text-xl font-bold text-blue-600">#1 HVAC System Services in USA</p><br>
+          <h1 class="text-blue-900 text-6xl font-bold ">Air conditioning</h1>
+          <h1 class="text-blue-900 text-6xl my-4 font-bold whitespace-nowrap z-[99]">system for your home </h1>
+          <h1 class="text-blue-900 text-6xl font-bold ">and office comfort</h1>
+          <p class=" text-lg my-4">Customers worldwide rely on Air Conditioning's innovative solutions and services to meet their most essential needs and overcome their biggest challenges in various settings.</p>
+          <div class="flex ">
+            <button class="mx-4 px-8 py-2 border-blue-500 border-2 rounded-3xl active:bg-blue-700 hover:bg-white hover:text-black transition ease-in-out delay-2000 ">Services</button></li>
+            <button class="px-6 py-2 border-blue-500 border-2 rounded-3xl hover:bg-blue-700 hover:text-white transition ease-in-out delay-2000">Get In Touch</button></li>
+          </div>
+        </div>
+      
+        <div class="-z-[1] border-4  w-1/2 h-full flex justify-center items-center">Chalo</div>
+      </div>
+      
+      
+      <script src="script.js"></script>
+  </body>
+</html>

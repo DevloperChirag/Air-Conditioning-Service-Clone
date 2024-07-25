@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+:root {
+  --main-bg: #0057ff;
+}
+/* body{
+  border: 5px solid #0057ff ;
+} */
+.Demos {
+  position: relative;
+  color: slategray;
+  display: flex;
+}
+#Demo {
+  width: 15%;
+  padding: 30px;
+  background-color: white;
+  transform: translateY(-17px);
+  position: absolute;
+  display: none;
+}
+#Demo::-webkit-scrollbar {
+  width: 5px;               /* width of the entire scrollbar */
+}
+
+#Demo::-webkit-scrollbar-track {
+  background: rgb(248, 248, 248);        /* color of the tracking area */
+}
+
+#Demo::-webkit-scrollbar-thumb {
+  background-color: blue;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  /* border: 3px solid orange;  creates padding around scroll thumb */
+}
+.Demos:hover #Demo:hover {
+  color: #0057ff;
+}
+
+.line-hover {
+  font-weight: 900;
+  display: none;
+  transition: all linear 1s;
+}
